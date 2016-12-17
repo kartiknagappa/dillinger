@@ -3,7 +3,7 @@ services:
   dillinger:
     build: .
     container_name: dillinger
-    image: joemccann/dillinger
+    image: jack/dillinger
     ports:
       - "12345:12345"
     environment:

@@ -6,9 +6,9 @@ Requires=docker.service
 [Service]
 TimeoutStartSec=0
 Restart=always
-ExecStartPre=-/usr/bin/docker stop joemccann/dillinger
-ExecStartPre=-/usr/bin/docker rm joemccann/dillinger
-ExecStart=/usr/bin/docker run -p 80:80 --rm --name %n joemccann/dillinger
+ExecStartPre=-/usr/bin/docker stop jack/dillinger
+ExecStartPre=-/usr/bin/docker rm jack/dillinger
+ExecStart=/usr/bin/docker run -p 80:80 --rm --name %n jack/dillinger
 
 [Install]
 WantedBy=multi-user.target

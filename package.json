@@ -35,7 +35,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/joemccann/dillinger"
+    "url": "git://github.com/kartiknagappa/dillinger"
   },
   "engines": {
     "node": "4.x.x",
